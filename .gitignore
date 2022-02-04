@@ -119,3 +119,4 @@ dist
 /config.json
 /.idea
 /.parcel-cache
+/data
