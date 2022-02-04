@@ -1,0 +1,8 @@
+{
+    "token": "TOKEN_HERE",
+    "slash": {
+        "guild": ""
+    },
+    "port": 3000,
+    "dev": false
+}
