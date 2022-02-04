@@ -4,5 +4,8 @@
         "guild": ""
     },
     "port": 3000,
-    "dev": false
+    "dev": false,
+    "webURL": "http://localhost:3000",
+    "captchaSecret": "",
+    "guild": ""
 }

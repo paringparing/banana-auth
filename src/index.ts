@@ -3,11 +3,14 @@ import { config } from './config'
 import { WebManager } from './webManager'
 import chokidar from 'chokidar'
 import path from 'path'
+import { PrismaClient } from '@prisma/client'
 
 process.on('uncaughtException', console.error)
 process.on('unhandledRejection', console.error)
 
 export const cts = new Client()
+
+export const prisma = new PrismaClient()
 
 const run = async () => {
     console.log('Logging in')
