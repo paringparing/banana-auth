@@ -16,7 +16,7 @@
     "dependencies": {
         "@discordjs/rest": "^0.1.0-canary.0",
         "@fullpage/react-fullpage": "^0.1.19",
-        "@pikokr/command.ts": "^4.0.0",
+        "@pikokr/command.ts": "^4.0.2",
         "chokidar": "^3.5.3",
         "discord-api-types": "^0.23.1",
         "discord.js": "^13.6.0",
