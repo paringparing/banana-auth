@@ -36,7 +36,7 @@
     "scripts": {
         "dev": "ts-node src",
         "build": "tsc",
-        "prod": "node dist",
+        "prod": "node dist/server",
         "fe:build": "yarn parcel build frontend/app.html --dist-dir dist/client",
         "fe:dev": "yarn parcel watch frontend/app.html --dist-dir dist/client"
     }

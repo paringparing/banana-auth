@@ -1,1 +1,1 @@
-export const config = require('../config.json')
+export const config = require(process.env.NODE_ENV === 'production' ? '../../config.json' : '../config.json')
