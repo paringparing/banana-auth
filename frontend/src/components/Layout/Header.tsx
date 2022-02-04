@@ -8,6 +8,7 @@ const Container = styled.div`
     height: 100px;
     padding-left: 24px;
     padding-right: 24px;
+    z-index: 99999;
 `
 
 const Content = styled.div`

@@ -1,14 +1,15 @@
 import React from 'react'
-import { Routes } from 'react-router-dom'
-import { createGlobalStyle } from 'styled-components'
+import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
+import MainPage from './pages/Main'
 
 const App: React.FC = () => {
     return (
         <>
             <Layout>
-                asdf
-                <Routes></Routes>
+                <Routes>
+                    <Route path="/" element={<MainPage />} />
+                </Routes>
             </Layout>
         </>
     )
