@@ -4,7 +4,10 @@ import styled from 'styled-components'
 import TeamMember from '../../components/TeamMember'
 import Marquee from 'react-fast-marquee'
 
-const Button = styled.div`
+const Button = styled.a`
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
     height: 60px;
     width: 250px;
     background: #d3d3d3;
@@ -32,8 +35,12 @@ const MainPage: React.FC = () => {
                                 <div style={{ fontSize: 64 }}>바나나</div>
                                 <div style={{ fontSize: 48 }}>Wa Sans</div>
                                 <div style={{ marginTop: 50, display: 'flex', gap: 70 }}>
-                                    <Button>와</Button>
-                                    <DiscordButton>디스코드</DiscordButton>
+                                    <Button href="https://discord.com" rel="noreferrer" target="_blank">
+                                        와
+                                    </Button>
+                                    <DiscordButton href="https://discord.com" rel="noreferrer" target="_blank">
+                                        디스코드
+                                    </DiscordButton>
                                 </div>
                             </div>
                         </div>
