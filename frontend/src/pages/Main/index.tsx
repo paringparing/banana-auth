@@ -57,7 +57,7 @@ const MainPage: React.FC = () => {
                                 </Marquee>
                             </div>
                         </div>
-                        <div className="section">asdf</div>
+                        <div className="section fp-auto-height">대충 푸터</div>
                     </ReactFullPage.Wrapper>
                 )
             }}
